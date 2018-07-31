@@ -9,5 +9,6 @@ artifacts:
     - index.html
     - favicon.ico
     - ArsalJavid.pdf
+    - babel.html
     -  styles/main.css
     - images/*
