@@ -10,5 +10,6 @@ artifacts:
     - favicon.ico
     - ArsalJavid.pdf
     - babel.html
+    - react.html
     -  styles/main.css
     - images/*
