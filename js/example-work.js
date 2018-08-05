@@ -4,7 +4,6 @@ import ExampleWorkModal from './example-work-modal';
 class ExampleWork extends React.Component {
   constructor(props) {
     super(props);
-
     this.state = {
       'modalOpen': false,
       'selectedExample': this.props.work[0]
