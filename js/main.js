@@ -5,7 +5,7 @@ import ExampleWork from './example-work';
 const myWork = [
   {
     'title': "Work Example",
-    'href': "https://example.com"
+    'href': "https://example.com",
     'desc': "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
     'image': {
       'desc':"example screenshot of a project involving code",
