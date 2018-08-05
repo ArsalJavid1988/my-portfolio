@@ -25,28 +25,29 @@ const myWork = [
     }
   }
 ]
-describe("ExampleWork component", () => {
-  let component = shallow(<ExampleWork work={myWork}/>);
 
-  it("Should be a 'section' element", () => {
-    expect(component.type()).toEqual('section');
-  });
+    describe("ExampleWork component", () => {
+      let component = shallow(<ExampleWork work={myWork}/>);
 
-  it("Should contains as many children as there are work examples",() => {
-    expect(component.find("ExampleWorkBubble").length).toEqual(myWork.length);
-  })
-});
+      it("Should be a 'section' element", () => {
+        expect(component.type()).toEqual('section');
+      });
 
-describe("ExampleWorkBubble component", () => {
-  let component = shallow(<ExampleWorkBubble example={myWork[1]}/>);
-  let images = component.find("img");
+      it("Should contains as many children as there are work examples",() => {
+        expect(component.find("ExampleWorkBubble").length).toEqual(myWork.length);
+      })
+    });
 
-  it("Should contain a single 'img' element", () => {
-    expect(images.length).toEqual(1);
-  });
+    describe("ExampleWorkBubble component", () => {
+      let component = shallow(<ExampleWorkBubble example={myWork[1]}/>);
+      let images = component.find("img");
 
-  it("Should have the image src set correctly", () => {
-    expect(images.prop('src')).toEqual(myWork[1].image.src);
-    expect('5').toEqual('6');
-  })
-});
+      it("Should contain a single 'img' element", () => {
+        expect(images.length).toEqual(1);
+      });
+
+      it("Should have the image src set correctly", () => {
+        expect(images.prop('src')).toEqual(myWork[1].image.src);
+        /*expect('5').toEqual('6');*/
+      })
+    });
