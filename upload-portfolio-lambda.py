@@ -32,7 +32,7 @@ def lambda_handler(event, context):
             for nm in myzip.namelist():
                 obj = myzip.open(nm)
                 portfolio_bucket.upload_fileobj(obj, nm,
-                ExtraArgs={'ContentType':'basestring'})
+                ExtraArgs={'ContentType':'text/html'})
                 portfolio_bucket.Object(nm).Acl().put(ACL='public-read')
         print "Job Done"
         topic.publish(Subject="Portfolio Deployed", Message="Portfolio Deployed Successfully")
