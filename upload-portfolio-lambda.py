@@ -38,7 +38,7 @@ def lambda_handler(event, context):
                 print mime2
                 portfolio_bucket.upload_fileobj(obj, nm,
                 #ExtraArgs={'ContentType':'basestring'})
-                ExtraArgs={'ContentType':mime2})
+                ExtraArgs={'ContentType':str(mime)})
                 portfolio_bucket.Object(nm).Acl().put(ACL='public-read')
         print "Job Done"
         topic.publish(Subject="Portfolio Deployed", Message="Portfolio Deployed Successfully")
