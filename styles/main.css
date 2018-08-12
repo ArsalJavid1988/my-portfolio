@@ -29,6 +29,10 @@
   background-color: rgb(44, 62, 80);
 }
 
+.background--image {
+  opacity:1;
+}
+
 .color--skyBlue {
   color: rgb(52, 152, 219);
 }
@@ -121,14 +125,13 @@ h1, h2, h3, h4, h5, h6 {
   transform: translate(-50%, -50%);
 }
 
-/*
+
 .section__image--centered{
-  display: inline-block;
-  top: 50%;
-  left:50%;
-  transform: translate(-50%,-50%);
+     width: 100%;
+     height: auto;
+     opacity: 0.3;
 }
-*/
+
 .section__exampleWrapper,
 .section__example {
   display: inline-block;
