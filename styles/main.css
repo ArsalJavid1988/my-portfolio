@@ -121,6 +121,14 @@ h1, h2, h3, h4, h5, h6 {
   transform: translate(-50%, -50%);
 }
 
+/*
+.section__image--centered{
+  display: inline-block;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+*/
 .section__exampleWrapper,
 .section__example {
   display: inline-block;
@@ -133,7 +141,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section__example {
-  border-radius: 0%;
+  border-radius: 100%;
   cursor: pointer;
   overflow: hidden;
   position: relative;
