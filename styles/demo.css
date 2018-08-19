@@ -7,7 +7,7 @@
   background: #222 url("images/bg.png") repeat;
 }*/
 
-body {
+/*body {
   _width: 70%;
   color: #888;
   font: 14px/20px Helvetica, Arial, sans-serif;
@@ -16,32 +16,18 @@ body {
   text-align: center;
   text-shadow: 0 -2px 1px #000;
   -webkit-font-smoothing: antialiased;
-  }
+  }*/
 
-h1 {
-  font: 40px/60px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #fff;
-  font-weight: 200;
-  }
 
-h2 {
-  font: 16px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-bottom: 40px;
-  }
+
 
 #wrapper {
   padding: 20px;
   }
 
-p,h3,h4,pre {
-  text-align: left;
-  max-width: 540px;
-  margin: 0 auto 20px;
-  }
-
 .rslides {
   width: 100%;
-  height: 100%;
+  height: auto;
   opacity: 0.3;
   }
 
