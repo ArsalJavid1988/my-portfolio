@@ -15,7 +15,6 @@ artifacts:
     - ArsalJavid.pdf
     - babel.html
     - react.html
-    - demo.html
     - styles/*
     - images/*
     - dist/bundle.js
