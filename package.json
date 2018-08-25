@@ -8,7 +8,7 @@
     "test-watch": "jest --watch",
     "webpack": "webpack",
     "webpack-watch": "webpack --watch"
-    },
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ArsalJavid1988/my-portfolio.git"
@@ -20,8 +20,11 @@
   },
   "homepage": "https://github.com/ArsalJavid1988/my-portfolio#readme",
   "dependencies": {
+    "nodejs-websocket": "^1.7.1",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "websocket": "^1.0.26",
+    "ws": "^6.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -38,7 +41,9 @@
     "webpack-cli": "^2.0.13"
   },
   "jest": {
-        "setupFiles": ["jest-localstorage-mock"],
-        "testURL": "http://localhost/"
+    "setupFiles": [
+      "jest-localstorage-mock"
+    ],
+    "testURL": "http://localhost/"
   }
 }
