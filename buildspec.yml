@@ -19,3 +19,4 @@ artifacts:
     - styles/*
     - images/*
     - dist/bundle.js
+    - js/responsiveslides.min.js
