@@ -389,3 +389,4 @@
 
   };
 })(jQuery, this, 0);
+export default responsiveSlides;
