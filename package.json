@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/ArsalJavid1988/my-portfolio#readme",
   "dependencies": {
+    "http-server": "^0.11.1",
     "nodejs-websocket": "^1.7.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
@@ -45,5 +46,9 @@
       "jest-localstorage-mock"
     ],
     "testURL": "http://localhost/"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.0",
+    "utf-8-validate": "^5.0.1"
   }
 }
