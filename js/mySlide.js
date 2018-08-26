@@ -41,5 +41,5 @@ export default class Slideshow extends React.Component {
 		</Slider>
 	</div>
 );
-);
+)
 }
