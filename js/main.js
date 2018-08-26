@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import ExampleWork from './example-work';
 import SlideShow from './mySlide';
+import 'react-animated-slider/build/horizontal.css';
 
 
 const myWork = [
