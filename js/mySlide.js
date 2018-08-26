@@ -2,6 +2,7 @@ import React from 'react';
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
 
+
 class Slideshow extends React.Component {
   render(){
  let content = this.props.content;
