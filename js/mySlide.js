@@ -2,8 +2,8 @@ import React from 'react';
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
 
-export default class Slideshow extends React.Component {
-  render() {
+class Slideshow extends React.Component {
+  render(){
  let content = this.props.content;
     return(
      App = () => (
@@ -42,3 +42,4 @@ export default class Slideshow extends React.Component {
 )
 )
 }
+export default SlideShow;
