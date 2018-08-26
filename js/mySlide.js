@@ -6,7 +6,7 @@ class Slideshow extends React.Component {
   render(){
  let content = this.props.content;
     return(
-     App = () => (
+     /* App = () => ( */
 	<div>
 		<Header />
 		<div className="wrapper">
@@ -39,7 +39,8 @@ class Slideshow extends React.Component {
 			))}
 		</Slider>
 	</div>
+/* ) */
 )
-)
+}
 }
 export default SlideShow;
