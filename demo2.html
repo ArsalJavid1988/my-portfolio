@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Arsal Javid's Portfolio</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type='text/css' href="styles/main.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cardo"/>
+    <link rel="stylesheet" href="styles/responsiveslides.css">
+    <link rel="stylesheet" href="styles/demo.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="js/responsiveslides.min.js"></script>
+    <!--<script src="js/responsiveslides.js"></script>-->
+  <script>
+  <!--  // You can also use "$(window).load(function() {" -->
+      $(function () {
+
+      // Slideshow 1
+        $("#slider1").responsiveSlides({
+          maxwidth: 1400,
+          speed: 800
+      });
+
+
+      });
+    </script>
+
+  </head>
+
+  <body>
+        <main class="navbar-fixed-top">
+          <h1 class="color--darkBlue section__heading--largest">
+            <!--Your name goes here -->
+            ARSAL JAVID
+          </h1>
+
+          <ul class="section--social">
+            <!--Links to relevant professional social media & resume -->
+            <!-- See: http://fontawesome.io/icons/#brand for more -->
+
+            <!-- Link to Linked In profile -->
+            <li class="socialWrapper">
+              <a class="color--darkBlue social"
+                 title="LinkedIn Profile"
+                 target="_blank"
+                 href="https://www.linkedin.com/in/arsaljavid">
+                <i class="fa fa-linkedin"></i>
+              </a>
+            </li>
+
+            <!-- Link to GitHub profile -->
+            <li class="socialWrapper color--darkBlue">
+              <a class="social color--darkBlue"
+                 title="GitHub Profile"
+                 target="_blank"
+                 href="https://github.com/ArsalJavid1988">
+                <i class="fa fa-github"></i>
+              </a>
+            </li>
+            <!-- Link to Instagram profile -->
+            <li class="socialWrapper color--darkBlue">
+              <a class="social color--darkBlue"
+                 title="Instagram Profile"
+                 target="_blank"
+                 href="https://www.instagram.com/arsal_javid/">
+                <i class="fa fa-instagram"></i>
+              </a>
+            </li>
+
+            <!-- Link to resume, probably a .pdf -->
+            <li class="socialWrapper">
+              <a class="social color--darkBlue"
+                 title="Resume"
+                 href="ArsalJavid.pdf">
+                <i class="fa fa-file-text"></i>
+              </a>
+            </li>
+          </ul>
+        </main>
+
+        <section class="section">
+          <h2 class="color--cloud margin--none section__text--centered">
+            Portfolio
+          </h2>
+            <ul class="rslides" id="slider1">
+              <li><img src="images/islamabad.jpg" title="Test 1" alt=""></li>
+              <li><img src="images/example2.png" alt=""></li>
+              <li><img src="images/example5.png" alt=""></li>
+            </ul>
+
+        <!--  <img src = images/test.png class="section__image--centered"></img> -->
+        </section>
+        <div id="example-work"></div>
+        <div id="slideShow"></div>
+        <section class="background--darkBlue section">
+          <h2 class="color--cloud margin--none section__text--centered">
+            About Me
+          </h2>
+        </section>
+
+        <section class="section section--alignCentered section--description">
+          <p class="color--darkgrey section__description">
+            I am learning to code in the cloud! I like to work hard and learn new things.
+            I want to work for a company that will pay me to code in the cloud!
+          </p>
+
+        <script type="text/javascript" src="dist/bundle.js">
+        </script>
+  </body>
+</html>

@@ -16,6 +16,7 @@ artifacts:
     - babel.html
     - react.html
     - demo.html
+    - demo2.html
     - styles/*
     - images/*
     - dist/bundle.js
