@@ -23,8 +23,7 @@ export default class Slideshow extends React.Component {
 				<div
 					key={index}
 					className="slider-content"
-					style={{ background: `url('${item.image}') no-repeat center center` }}
-				>
+					style={{ background: `url('${item.image}') no-repeat center center` }}>
 					<div className="inner">
 						<h1>{item.title}</h1>
 						<p>{item.description}</p>
@@ -40,6 +39,6 @@ export default class Slideshow extends React.Component {
 			))}
 		</Slider>
 	</div>
-,);
+)
 )
 }
