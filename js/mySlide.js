@@ -1,6 +1,9 @@
 import React from 'react';
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
+import 'normalize.css/normalize.css';
+import '../styles/slider-animations.css';
+import '../styles/styles.css';
 
 class Slideshow extends React.Component {
   render(){
