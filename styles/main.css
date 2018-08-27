@@ -58,6 +58,9 @@
 .color--darkgrey {
   color: rgb(44, 62, 80);
 }
+.color--white {
+  color: rgb(255, 255, 255);
+}
 
 .section__example {
   background-color: rgb(44, 62, 80);
