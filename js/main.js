@@ -70,4 +70,4 @@ const content = [
 
 ReactDOM.render(<ExampleWork work={myWork}/>, document.getElementById('example-work'));
 //ReactDOM.render(<SlideShow/>, document.getElementById('SlideShow'));
-ReactDOM.render(document.getElementById('SlideShow'));
+ReactDOM.render(<SlideShow />, document.getElementById('mySlide'));

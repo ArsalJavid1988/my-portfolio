@@ -1,13 +1,12 @@
 import React from 'react';
 
-
 class SlideShow extends React.Component {
   render(){
      return(
-      <h2 class="color--cloud margin--none section__text--centered">
-       HELLO WORLD!!! </h2>
+       <span>
+      <h2 class="color--black margin--none section__text--centered">HELLO WORLD!!! </h2>
+</span>
 )
 }
 }
-
 export default SlideShow;
