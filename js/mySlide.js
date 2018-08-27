@@ -6,7 +6,7 @@ class SlideShow extends React.Component {
        <span>
        <section class="section">
          <h2 class="color--black margin--none section__text--centered">
-           Hello World!
+           REACT ANIMATED SLIDER GOES HERE!
          </h2>
          </section>
 </span>
