@@ -8,14 +8,11 @@ module.exports = {
   },
   module: {
     rules: [{
-      test: /\.js$/,/\.css$/,
+      test: /\.js$/,
       exclude: /node_modules/,
-      use: {
-      loader: 'babel-loader','style-loader!css-loader',
-      options: {
-        presets: ['react']
-      }
+      use:{
+      loader: 'babel-loader',
+     options: {presets: ['react']}}
+      }]
     }
-    }]
   }
-}

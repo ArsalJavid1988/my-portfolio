@@ -2,8 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import ExampleWork from './example-work';
 import SlideShow from './mySlide';
-import 'react-animated-slider/build/horizontal.css';
-
 
 const myWork = [
   {
@@ -71,4 +69,5 @@ const content = [
 
 
 ReactDOM.render(<ExampleWork work={myWork}/>, document.getElementById('example-work'));
-ReactDOM.render(<slideShow content={content}/>, document.getElementById('slideShow'));
+//ReactDOM.render(<SlideShow/>, document.getElementById('SlideShow'));
+ReactDOM.render(document.getElementById('SlideShow'));
