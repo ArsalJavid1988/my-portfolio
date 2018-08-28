@@ -60,6 +60,7 @@ button {
   font-weight: 400;
   font-size: 13px;
   cursor: cursor;
+
 }
 
 button:hover {
@@ -128,6 +129,7 @@ button:hover {
   left: 0;
   -webkit-transform: rotate(180deg) translateY(calc(50% + 0px));
           transform: rotate(180deg) translateY(calc(50% + 0px));
+          z-index: 5;
 }
 
 .previousButton:hover {
@@ -136,6 +138,7 @@ button:hover {
 
 .nextButton {
   right: 0;
+  z-index: 5;
 }
 
 .nextButton:hover {
