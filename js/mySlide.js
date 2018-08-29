@@ -18,7 +18,7 @@ const content = [
 		description:
 		'Time to move',
 	//	button: 'Discover',
-		image: '../images/example2.png',
+		image: '../images/khyber.jpg',
 		user: 'Arsal Javid',
 		userProfile: '../images/test.png'
 	},
@@ -27,7 +27,7 @@ const content = [
 		description:
 		'Done and Dusted',
 	//	button: 'Buy now',
-		image: '../images/example5.png',
+		image: '../images/gram.png',
 		user: 'Arsal Javid',
 		userProfile: '../images/test.png'
 	}
