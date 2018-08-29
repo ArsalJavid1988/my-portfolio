@@ -3,35 +3,8 @@ import Slider from 'react-animated-slider';
 require('react-animated-slider/build/horizontal.css');
 require('./slider-animations.css');
 require('./styles.css');
-const content = [
-	{
-		title: 'This is my first Slide',
-		description:
-		'Let us see if this works',
-	//	button: 'Read More',
-		image: '../images/islamabad.jpg',
-		user: 'Arsal Javid',
-		userProfile: '../images/test.png'
-	},
-	{
-		title: 'This is my second Slide',
-		description:
-		'Time to move',
-	//	button: 'Discover',
-		image: '../images/khyber.jpg',
-		user: 'Arsal Javid',
-		userProfile: '../images/test.png'
-	},
-	{
-		title: 'Slide Number 3 coming right up',
-		description:
-		'Done and Dusted',
-	//	button: 'Buy now',
-		image: '../images/gram.png',
-		user: 'Arsal Javid',
-		userProfile: '../images/test.png'
-	}
-];
+
+
 
 class SlideShow extends React.Component {
   render(){
@@ -44,8 +17,11 @@ class SlideShow extends React.Component {
          </section>
 </span>
 )}}
+
 class MySlidesShow extends React.Component {
+
   render(){
+		let content = this.props.content;
     return(
       <span>
 
