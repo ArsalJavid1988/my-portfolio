@@ -18,7 +18,7 @@ const content = [
 		description:
 		'Time to move',
 	//	button: 'Discover',
-		image: '..//images/example2.png',
+		image: '../images/example2.png',
 		user: 'Arsal Javid',
 		userProfile: '../images/test.png'
 	},
