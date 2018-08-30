@@ -53,7 +53,7 @@ const content = [
 		description:
 		'Time to move',
 	//	button: 'Discover',
-		image: '../images/khyber.jpg',
+		image: '../images/Khyber.jpg',
 		user: 'Arsal Javid',
 		userProfile: '../images/test.png'
 	},
