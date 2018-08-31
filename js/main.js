@@ -53,7 +53,7 @@ const content = [
 		description:
 		'Time to move',
 	//	button: 'Discover',
-		image: '../images/Khyber.jpg',
+		image: '../images/khyber.jpg',
 		user: 'Arsal Javid',
 		userProfile: '../images/test.png'
 	},
@@ -69,6 +69,4 @@ const content = [
 ];
 
 ReactDOM.render(<ExampleWork work={myWork}/>, document.getElementById('example-work'));
-//ReactDOM.render(<SlideShow/>, document.getElementById('SlideShow'));
-//ReactDOM.render(<SlideShow />, document.getElementById('mySlide'));
 ReactDOM.render(<MySlidesShow content={content}/>,document.getElementById('MySlidesShow'));

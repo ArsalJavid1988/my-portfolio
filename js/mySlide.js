@@ -4,8 +4,6 @@ require('react-animated-slider/build/horizontal.css');
 require('./slider-animations.css');
 require('./styles.css');
 
-
-
 class SlideShow extends React.Component {
   render(){
      return(
