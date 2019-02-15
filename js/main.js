@@ -24,7 +24,7 @@ const myWork = [
       'src': "images/example2.png",
       'comment': ""
     }
-  }
+  },
   {
     'title': "Android Application Prototype",
     'href': "https://s3.amazonaws.com/portfolio.ajonline.info/projects/debug-1.0.apk",
