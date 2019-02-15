@@ -32,9 +32,9 @@ const myWork = [
   'image': {
       'desc':"Android Studio",
       'src': "images/android.jpg",
-      'comment': `""`
+      'comment': ""
     }
-  }*/
+  }
 
 ]
 const content = [
