@@ -39,7 +39,7 @@ const myWork = [
 
   {
     'title': "Progressive Web App - Mortgage Calculator",
-    'href': "mortgage-pwa.ajonline.info",
+    'href': "https://mortgage-pwa.ajonline.info",
     'desc': "First Attempt at building a Progressive Web Application. The application can be used to get a an estimate of what the monthly payments would be when taking out a mortgage. The application was built using a combination of HTML, CSS and JavaScript. This is futher enhanced through the use of a service worker which is programmed to cache all javascript and html files locally on to the device. This can improve load times as well enable applications to work offline. Mobile users are additionally prompted to install the app which will install a shortcut on their phone.  ",
   'image': {
       'desc':"Mortgage Calculator",
