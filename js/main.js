@@ -29,12 +29,12 @@ const myWork = [
     'title': "Android Application Prototype",
     'href': "https://s3.amazonaws.com/portfolio.ajonline.info/projects/debug-1.0.apk",
     'desc': "First Attempt at building an Android Application. The application is designed for students of Quranic Arabic. It is important to stress this is not a fully fledged app and is only a work in progress. The application begins by allowing a user to either log on or sign up to gain access. Once logged in, the user can select a module of choice and decide whether the wish to go over learning concepts or proceed straight to the quiz. Completion of the initial module will unlock the next available module (The Lock mechanism has not yet been implemented). The application has been designed and built using a combination of Android Studio, Figma, Java Programming and Parse Database API. Thi backend database is stored using an AWS EC2 instance of the Parse database. The database stores user details, learning material and user progress.",
-<<<<<<< HEAD
-  'image': {
+  ss'image': {
       'desc':"Android Studio",
       'src': "images/android.jpg",
       'comment': ""
     }
+
   }
 
   {
@@ -44,7 +44,6 @@ const myWork = [
   'image': {
       'desc':"Mortgage Calculator",
       'src': "images/icon-512x512.jpg",
-=======
   'image': {
       'desc':"Android Studio",
       'src': "images/android.jpg",
