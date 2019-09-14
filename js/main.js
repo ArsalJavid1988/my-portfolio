@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import ExampleWork from './example-work';
-import SlideShow from './mySlide';
+//import SlideShow from './mySlide';
+import MySlidesShow from './mySlide';
 
 const myWork = [
   {
     'title': "My Portfolio Website",
-    'href': "http://portfolio.ajonline.info/",
-    'desc': "This is my first attempt at building a website. In the course of getting this website to point where you can view it, I have had the opportunity to introduce myself to the following tools/technologies: HTML, CSS, Javascript, ReactJS, NodeJS, Babel, Python, WebPack, Mocha, Latte, Jest, Choco Package Installer, Github, AWS S3, AWS Route 53, AWS Cloudfront, AWS Lambda, AWS CodeBuild, AWS CodePipeline and Amazon SNS. By levaraging this all these technologies, I am now able to host a serverless dynamic website where the effort taken to release any updates to the webpage has been taken out of the equation. The process from updating the source code all the way until it presented on the internet is fully automated once I upload the code to my GitHub repository. Disclaimer: This website has been built following guidelines outlined by training course designed for people to familiarise themselves with AWS products and basic Web Design concepts. This is purely a result of both following the course as well as troubleshooting and then adapting the website to reflect my efforts as well test out new ideas.",
+    'href': "http://portfolio.ajonline.info/demo2.html",
+    'desc': "This is my first attempt at building a website. In the course of getting this website to point where you can view it, I have had the opportunity to introduce myself to the following tools/technologies: HTML, CSS, Javascript, ReactJS, NodeJS, Babel, Python, WebPack, Mocha, Latte, Jest, Choco Package Installer, Github, AWS S3, AWS Route 53, AWS Cloudfront, AWS Lambda, AWS CodeBuild, AWS CodePipeline and Amazon SNS. By levaraging this all these technologies, I am now able to host a serverless dynamic website where the effort taken to release any updates to the webpage has been taken out of the equation. The process from updating the source code all the way until it presented on the internet is fully automated once I upload the code to my GitHub repository. Disclaimer: This website has been built following guidelines outlined by training course designed for people to familiarise themselves with AWS products and basic Web Design concepts. This is purely a result of both following the course as well as troubleshooting and then adapting the website to reflect my efforts as well test out new ideas. Updated: 29/08/2018, Integated a Javascript react slider into webpage.",
     'image': {
       'desc':"example screenshot of a project involving code",
       'src': "images/example1.png",
@@ -23,51 +24,59 @@ const myWork = [
       'src': "images/example2.png",
       'comment': ""
     }
-  }
-/*  {
-    'title': "Work Example",
-    'href': "https://example.com",
-    'desc': "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+  },
+  {
+    'title': "Android Application Prototype",
+    'href': "https://s3.amazonaws.com/portfolio.ajonline.info/projects/debug-1.0.apk",
+    'desc': "First Attempt at building an Android Application. The application is designed for students of Quranic Arabic. It is important to stress this is not a fully fledged app and is only a work in progress. The application begins by allowing a user to either log on or sign up to gain access. Once logged in, the user can select a module of choice and decide whether the wish to go over learning concepts or proceed straight to the quiz. Completion of the initial module will unlock the next available module (The Lock mechanism has not yet been implemented). The application has been designed and built using a combination of Android Studio, Figma, Java Programming and Parse Database API. Thi backend database is stored using an AWS EC2 instance of the Parse database. The database stores user details, learning material and user progress.",
   'image': {
-      'desc':"example screenshot of a project involving cats",
-      'src': "images/example3.png",
-      'comment': `"Bengal cat” by roberto shabs is licensed under CC BY 2.0
-                    https://www.flickr.com/photos/37287295@N00/2540855181"`
+      'desc':"Android Studio",
+      'src': "images/android.jpg",
+      'comment': ""
     }
-  }*/
+  }
+
+  {
+    'title': "Progressive Web App - Mortgage Calculator",
+    'href': "https://s3.amazonaws.com/mortgage-pwa.ajonline.info/index.html",
+    'desc': "First Attempt at building a Progressive Web Application. The application can be used to get a an estimate of what the monthly payments would be when taking out a mortgage. The application was built using a combination of HTML, CSS and JavaScript. This is futher enhanced through the use of a service worker which is programmed to cache all javascript and html files locally on to the device. This can improve load times as well enable applications to work offline. Mobile users are additionally prompted to install the app which will install a shortcut on their phone.  ",
+  'image': {
+      'desc':"Mortgage Calculator",
+      'src': "images/icon-512x512.jpg",
+      'comment': ""
+    }
+  }
 
 ]
 const content = [
 	{
-		title: 'Vulputate Mollis Ultricies Fermentum Parturient',
+		title: 'This is my first Slide',
 		description:
-		'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis.',
-		button: 'Read More',
-		image: 'https://i.imgur.com/ZXBtVw7.jpg',
-		user: 'Luan Gjokaj',
-		userProfile: 'https://i.imgur.com/JSW6mEk.png'
+		'Let us see if this works',
+	//	button: 'Read More',
+		image: '../images/islamabad.jpg',
+		user: 'Arsal Javid',
+		userProfile: '../images/test.png'
 	},
 	{
-		title: 'Tortor Dapibus Commodo Aenean Quam',
+		title: 'This is my second Slide',
 		description:
-		'Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui.',
-		button: 'Discover',
-		image: 'https://i.imgur.com/DCdBXcq.jpg',
-		user: 'Erich Behrens',
-		userProfile: 'https://i.imgur.com/0Clfnu7.png'
+		'Time to move',
+	//	button: 'Discover',
+		image: '../images/khyber.jpg',
+		user: 'Arsal Javid',
+		userProfile: '../images/test.png'
 	},
 	{
-		title: 'Phasellus volutpat metus',
+		title: 'Slide Number 3 coming right up',
 		description:
-		'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.',
-		button: 'Buy now',
-		image: 'https://i.imgur.com/DvmN8Hx.jpg',
-		user: 'Bruno Vizovskyy',
-		userProfile: 'https://i.imgur.com/4KeKvtH.png'
+		'Done and Dusted',
+	//	button: 'Buy now',
+		image: '../images/gram.png',
+		user: 'Arsal Javid',
+		userProfile: '../images/test.png'
 	}
 ];
 
-
 ReactDOM.render(<ExampleWork work={myWork}/>, document.getElementById('example-work'));
-//ReactDOM.render(<SlideShow/>, document.getElementById('SlideShow'));
-ReactDOM.render(<SlideShow />, document.getElementById('mySlide'));
+ReactDOM.render(<MySlidesShow content={content}/>,document.getElementById('MySlidesShow'));
