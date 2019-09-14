@@ -35,7 +35,7 @@ const myWork = [
       'comment': ""
     }
 
-  }
+  },
 
   {
     'title': "Progressive Web App - Mortgage Calculator",
