@@ -44,12 +44,8 @@ const myWork = [
   'image': {
       'desc':"Mortgage Calculator",
       'src': "images/icon-512x512.jpg",
-  'image': {
-      'desc':"Android Studio",
-      'src': "images/android.jpg",
-      'comment': ""
-    }
-  }}
+  }
+  }
 
 ]
 const content = [
