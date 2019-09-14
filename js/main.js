@@ -31,7 +31,7 @@ const myWork = [
     'desc': "First Attempt at building an Android Application. The application is designed for students of Quranic Arabic. It is important to stress this is not a fully fledged app and is only a work in progress. The application begins by allowing a user to either log on or sign up to gain access. Once logged in, the user can select a module of choice and decide whether the wish to go over learning concepts or proceed straight to the quiz. Completion of the initial module will unlock the next available module (The Lock mechanism has not yet been implemented). The application has been designed and built using a combination of Android Studio, Figma, Java Programming and Parse Database API. Thi backend database is stored using an AWS EC2 instance of the Parse database. The database stores user details, learning material and user progress.",
 'image': {
       'desc':"Android Studio",
-      'src': "images/android.jpg",
+      'src': "images/example5.png",
       'comment': ""
     }
 
@@ -39,11 +39,11 @@ const myWork = [
 
   {
     'title': "Progressive Web App - Mortgage Calculator",
-    'href': "https://s3.amazonaws.com/mortgage-pwa.ajonline.info/index.html",
+    'href': "mortgage-pwa.ajonline.info",
     'desc': "First Attempt at building a Progressive Web Application. The application can be used to get a an estimate of what the monthly payments would be when taking out a mortgage. The application was built using a combination of HTML, CSS and JavaScript. This is futher enhanced through the use of a service worker which is programmed to cache all javascript and html files locally on to the device. This can improve load times as well enable applications to work offline. Mobile users are additionally prompted to install the app which will install a shortcut on their phone.  ",
   'image': {
       'desc':"Mortgage Calculator",
-      'src': "images/icon-512x512.jpg",
+      'src': "images/icon-512x512.png",
   }
   }
 
