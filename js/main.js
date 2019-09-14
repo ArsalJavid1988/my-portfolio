@@ -49,7 +49,7 @@ const myWork = [
       'src': "images/android.jpg",
       'comment': ""
     }
-  }
+  }}
 
 ]
 const content = [
