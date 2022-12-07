@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/ArsalJavid1988/my-portfolio#readme",
   "dependencies": {
-    "http-server": "^0.11.1",
+    "http-server": "^0.11.2",
     "nodejs-websocket": "^1.7.1",
     "react": "^16.2.0",
     "react-animated-slider": "^1.1.3",
